@@ -3,7 +3,6 @@ title: 'JVM基础'
 subtitle: 'Jvm常见问题'
 date: 2021-02-12
 author: lei.zz
-color: rgb(250,50,30)
 tags: [JVM]
 ---
 
@@ -226,7 +225,8 @@ JDK8之后，方法区存在于元空间(Metaspace)。物理内存不再与堆�
 可以通过以下的参数来设置元空间的大小：
 
 ```
--XX:MetaspaceSize，初始空间大小，达到该值就会触发垃圾收集进行类型卸载，同时GC会对该值进行调整：如果释放了大量的空间，就适当降低该值；如果释放了很少的空间，那么在不超过MaxMetaspaceSize时，适当提高该值。
+-XX:MetaspaceSize，初始空间大小，达到该值就会触发垃圾收集进行类型卸载，同时GC会对该值进行调整：
+如果释放了大量的空间，就适当降低该值；如果释放了很少的空间，那么在不超过MaxMetaspaceSize时，适当提高该值。
 
 -XX:MaxMetaspaceSize，最大空间，默认是没有限制的。
 
