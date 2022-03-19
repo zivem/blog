@@ -1,0 +1,12 @@
+[
+  {
+    "firstname": "JVM",
+    "lastname": "原理",
+    "zip_code": 12345
+  },
+  {
+    "firstname": "分布式",
+    "lastname": "架构",
+    "zip_code": null
+  }
+]
