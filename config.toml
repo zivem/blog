@@ -1,4 +1,4 @@
-baseURL = "http://lei-zz.github.io"
+# baseURL = "http://lei-zz.github.io"
 # [en, zh-cn, fr, pl, ...] determines default content language
 # [en, zh-cn, fr, pl, ...] 设置默认的语言
 defaultContentLanguage = "en"
@@ -326,9 +326,9 @@ enableEmoji = true
         # 是否在搜索索引中使用基于 baseURL 的绝对路径
         absoluteURL = false
         [languages.zh-cn.params.search.algolia]
-          index = "index.zh-cn"
-          appID = "PASDMWALPK"
-          searchKey = "b42948e51daaa93df92381c8e2ac0f93"
+          index = "new-index-1647619849"
+          appID = "DKS4FQ4NM8"
+          searchKey = "06463a93a6297b575b6669a10a43b650"
       # 主页信息设置
       [languages.zh-cn.params.home]
         # RSS 文章数目
