@@ -1,15 +1,15 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
         <title>Tomcat - Tag - Z</title>
-        <link>http://lei-zz.github.io/tags/tomcat/</link>
+        <link>/tags/tomcat/</link>
         <description>Tomcat - Tag - Z</description>
         <generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>lei.zz0309@gmail.com (lei.zz)</managingEditor>
-            <webMaster>lei.zz0309@gmail.com (lei.zz)</webMaster><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Tue, 14 Jul 2020 22:40:00 &#43;0000</lastBuildDate><atom:link href="http://lei-zz.github.io/tags/tomcat/" rel="self" type="application/rss+xml" /><item>
+            <webMaster>lei.zz0309@gmail.com (lei.zz)</webMaster><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Tue, 14 Jul 2020 22:40:00 &#43;0000</lastBuildDate><atom:link href="/tags/tomcat/" rel="self" type="application/rss+xml" /><item>
     <title>Tomcat详解</title>
-    <link>http://lei-zz.github.io/tomcat/</link>
+    <link>/tomcat/</link>
     <pubDate>Tue, 14 Jul 2020 22:40:00 &#43;0000</pubDate>
     <author>Author</author>
-    <guid>http://lei-zz.github.io/tomcat/</guid>
+    <guid>/tomcat/</guid>
     <description><![CDATA[Tomcat详解 目录结构 bin：tomocat启动文件 conf  1.logging.properties 日志配置； 2.server.xml服务器端口等配置； 3.tomcat-users.xml tomcat用户角色、权限配置； 4.web.xml应用全局默认配置，若服务中进行了配置，则会覆盖  lib：基础jar包 temp ：临时文件 webapps ：发布项目的目录，管理界面 work：JSP 解析成Java类，中间会产生过程文件，编译运行中间文件 架构及原理剖析 架构   http请求过程
   tomcat是一个http服务器，能够接收http请求
   Tomcat Servlet容器处理流程

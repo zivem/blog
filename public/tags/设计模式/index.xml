@@ -1,15 +1,15 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
         <title>设计模式 - Tag - Z</title>
-        <link>http://lei-zz.github.io/tags/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F/</link>
+        <link>/tags/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F/</link>
         <description>设计模式 - Tag - Z</description>
         <generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>lei.zz0309@gmail.com (lei.zz)</managingEditor>
-            <webMaster>lei.zz0309@gmail.com (lei.zz)</webMaster><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Mon, 13 Jul 2020 00:00:00 &#43;0000</lastBuildDate><atom:link href="http://lei-zz.github.io/tags/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F/" rel="self" type="application/rss+xml" /><item>
+            <webMaster>lei.zz0309@gmail.com (lei.zz)</webMaster><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Mon, 13 Jul 2020 00:00:00 &#43;0000</lastBuildDate><atom:link href="/tags/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F/" rel="self" type="application/rss+xml" /><item>
     <title>理解代理模式、静态代理、动态代理、CGlib、AOP</title>
-    <link>http://lei-zz.github.io/%E7%90%86%E8%A7%A3%E4%BB%A3%E7%90%86%E6%A8%A1%E5%BC%8F%E9%9D%99%E6%80%81%E4%BB%A3%E7%90%86%E5%8A%A8%E6%80%81%E4%BB%A3%E7%90%86cglibaop/</link>
+    <link>/%E7%90%86%E8%A7%A3%E4%BB%A3%E7%90%86%E6%A8%A1%E5%BC%8F%E9%9D%99%E6%80%81%E4%BB%A3%E7%90%86%E5%8A%A8%E6%80%81%E4%BB%A3%E7%90%86cglibaop/</link>
     <pubDate>Mon, 13 Jul 2020 00:00:00 &#43;0000</pubDate>
     <author>Author</author>
-    <guid>http://lei-zz.github.io/%E7%90%86%E8%A7%A3%E4%BB%A3%E7%90%86%E6%A8%A1%E5%BC%8F%E9%9D%99%E6%80%81%E4%BB%A3%E7%90%86%E5%8A%A8%E6%80%81%E4%BB%A3%E7%90%86cglibaop/</guid>
+    <guid>/%E7%90%86%E8%A7%A3%E4%BB%A3%E7%90%86%E6%A8%A1%E5%BC%8F%E9%9D%99%E6%80%81%E4%BB%A3%E7%90%86%E5%8A%A8%E6%80%81%E4%BB%A3%E7%90%86cglibaop/</guid>
     <description><![CDATA[理解代理模式、静态代理、动态代理、CGlib、AOP 代理模式 定义 为其他对象提供一种代理以控制对这个对象的访问。在某些情况下，一个对象不适合或者不能直接引用另一个对象，而代理对象可以在客户端和目标对象之间起到中介的作用。
 组成 抽象角色：通过接口或抽象类声明真实角色实现的业务方法。
 代理角色：实现抽象角色，是真实角色的代理，通过真实角色的业务逻辑方法来实现抽象方法，并可以附加自己的操作。

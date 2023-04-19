@@ -35,7 +35,7 @@
 
 	- Spring对JavaEE API(如JDBC、JavaMail、远程调用等)进行了薄薄的封装层，使这些API的使用难度大为降低。
 
-- 源码是经典的 Java 学习范例 
+- 源码是经典的 Java 学习范例
 
 	- Spring的源代码设计精妙、结构清晰、匠心独用，处处体现着大师对Java设计模式灵活运用以及对Java技术的高深造诣。它的源代码无意是Java技术的最佳实践的范例。
 
@@ -45,7 +45,7 @@
 
 	- Spring框架最核心的部分，它管理着Spring应用中 bean的创建、配置和管理。在该模块中，包括了Spring bean工厂，它为Spring提供了DI的功能。 基于bean工厂，我们还会发现有多种Spring应用上下文的实现。所有的Spring模块都构建于核心 容器之上。
 
-- 面向切面编程(AOP)/Aspects 
+- 面向切面编程(AOP)/Aspects
 
 	- Spring对面向切面编程提供了丰富的支持。这个模块是Spring应 用系统中开发切面的基础，与DI一样，AOP可以帮助应用对象解耦。
 
@@ -57,7 +57,7 @@
 
 	- 该模块提供了SpringMVC框架给Web应用，还提供了多种构建和其它应用交互的远程调用方 案。 SpringMVC框架在Web层提升了应用的松耦合水平。
 
-- Test 
+- Test
 
 	- 为了使得开发者能够很方便的进行测试，Spring提供了测试模块以致力于Spring应用的测 试。 通过该模块，Spring为使用Servlet、JNDI等编写单元测试提供了一系列的mock对象实现。
 
@@ -216,7 +216,7 @@
 					- 顾名思义，就是利用带参构造函数实现对类成员的数据赋值
 					- constructor-arg
 
-						- name:用于给构造函数中指定名称的参数赋值。 
+						- name:用于给构造函数中指定名称的参数赋值。
 						- index:用于给构造函数中指定索引位置的参数赋值。
 						- value:用于指定基本类型或者String类型的数据。
 						- ref:用于指定其他Bean类型的数据。写的是其他bean的唯一标识。
@@ -226,7 +226,7 @@
 					- 它是通过类成员的set方法实现数据的注入。(使用最多的)
 					- property
 
-						- name:指定注入时调用的set方法名称。(注:不包含set这三个字母,druid连接池指定属性名称) 
+						- name:指定注入时调用的set方法名称。(注:不包含set这三个字母,druid连接池指定属性名称)
 						- value:指定注入的数据。它支持基本类型和String类型。
 						-  ref:指定注入的数据。它支持其他bean类型。写的是其他bean的唯一标识。
 
@@ -285,11 +285,11 @@
 
 		- 纯注解
 
-			- @Configuration 
+			- @Configuration
 
 				- 注解，表名当前类是一个配置类
 
-			- @ComponentScan 
+			- @ComponentScan
 
 				- 注解，替代 context:component-scan
 
@@ -301,7 +301,7 @@
 
 				- 引入其他配置类
 
-			- @Value 
+			- @Value
 
 				- 对变量赋值，可以直接赋值，也可以使用 ${} 读取资源配置文件中的信息 @Bean 将方法返回对象加入 SpringIOC 容器
 
@@ -312,7 +312,7 @@
 		- ApplicationContext 容器的默认行为是在启动服务器时将所有 singleton bean 提前进行实例化。提前 实例化意味着作为初始化过程的一部分，ApplicationContext 实例会创建并配置所有的singleton bean。
 		- 设置 lazy-init 为 true 的 bean 将不会在 ApplicationContext 启动时提前被实例化，而是第一次向容器
 		- 通过 getBean 索取 bean 时实例化的。
-		- scope="pototype" 
+		- scope="pototype"
 
 			-  lazy-init="false"，容器启动时也不 会实例化bean，而是调用 getBean 方法实例化的。
 
@@ -355,10 +355,10 @@
 		-  4)如果 Bean 实现了 BeanFactoryAware 接口，则 Spring 调用 setBeanFactory() 方法传入当前工厂实例的引用。
 		-  5)如果 Bean 实现了 ApplicationContextAware 接口，则 Spring 调用 setApplicationContext() 方法传入当前 ApplicationContext 实例的引用。
 		- 6)如果 BeanPostProcessor 和 Bean 关联，则 Spring 将调用该接口的预初始化方法postProcessBeforeInitialzation() 对 Bean 进行加工操作，此处非常重要，Spring 的 AOP 就是利用它实现的。
-		-  7)如果 Bean 实现了 InitializingBean 接口，则 Spring 将调用 afterPropertiesSet() 方法。 
+		-  7)如果 Bean 实现了 InitializingBean 接口，则 Spring 将调用 afterPropertiesSet() 方法。
 		- 8)如果在配置文件中通过 init-method 属性指定了初始化方法，则调用该初始化方法。
 		- 9)如果 BeanPostProcessor 和 Bean 关联，则 Spring 将调用该接口的初始化方法 postProcessAfterInitialization()。此时，Bean 已经可以被应用系统使用了。
-		- 10)如果在 <bean> 中指定了该 Bean 的作用范围为 scope="singleton"，则将该 Bean 放入 Spring IoC 的缓存池中，将触发 Spring 对该 Bean 的生命周期管理;如果在 <bean> 中指定了该 Bean 的作用范围为 scope="prototype"，则将该 Bean 交给调用 
+		- 10)如果在 <bean> 中指定了该 Bean 的作用范围为 scope="singleton"，则将该 Bean 放入 Spring IoC 的缓存池中，将触发 Spring 对该 Bean 的生命周期管理;如果在 <bean> 中指定了该 Bean 的作用范围为 scope="prototype"，则将该 Bean 交给调用
 		- 11)如果 Bean 实现了 DisposableBean 接口，则 Spring 会调用 destory() 方法将 Spring 中的 Bean 销毁;如果在配置文件中通过 destory-method 属性指定了 Bean 的销毁方法，则 Spring 将调用该方法对 Bean 进行销毁。
 
 	- BeanDefinition
@@ -414,7 +414,7 @@
 					- loadBeanDefinitions
 
 				- getBeanFactory
-				- ![spring_get_bean_factory](/assets/post/spring_get_bean_factory.jpg)
+				- ![spring_get_bean_factory](../img/spring/spring_get_bean_factory.jpg)
 
 			- 加载BeanDefition并注册到BeanDefitionRegistry
 
@@ -445,3 +445,4 @@
 ### AOP
 
 *XMind: ZEN - Trial Version*
+

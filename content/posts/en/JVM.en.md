@@ -6,7 +6,7 @@ lastmod: 2021-02-12T15:58:26+08:00
 author: "lei.zz"
 
 tag: [JVM]
-featuredImage: ../img/banner/class.jpg
+featuredImage: /img/banner/class.jpg
 lightgallery: true
 
 ---

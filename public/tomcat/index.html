@@ -16,12 +16,12 @@
   简介
  封装网络通信，(Socket 请求及响应处理) Catalina 容器(容器组件)与具体的请求协议及IO操作方式完全解耦 将Socket 输入转换封装为 Request 对象，进一步封装后交由Catalina 容器进行处理，处 理请求完成后, Catalina 通过Coyote 提供的Response 对象将结果写入输出流 Coyote 负责的是具体协议(应用层)和IO(传输层)相关内容    I/O模型及协议" />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="http://lei-zz.github.io/tomcat/" /><meta property="og:image" content="http://lei-zz.github.io/logo/logo.png"/><meta property="article:section" content="posts" />
+<meta property="og:url" content="/tomcat/" /><meta property="og:image" content="47"/><meta property="article:section" content="posts" />
 <meta property="article:published_time" content="2020-07-14T22:40:00+00:00" />
-<meta property="article:modified_time" content="2020-07-14T22:40:00+00:00" />
+<meta property="article:modified_time" content="2022-03-19T22:51:18+08:00" />
 
 <meta name="twitter:card" content="summary_large_image"/>
-<meta name="twitter:image" content="http://lei-zz.github.io/logo/logo.png"/>
+<meta name="twitter:image" content="47"/>
 
 <meta name="twitter:title" content="Tomcat详解"/>
 <meta name="twitter:description" content="Tomcat详解 目录结构 bin：tomocat启动文件 conf  1.logging.properties 日志配置； 2.server.xml服务器端口等配置； 3.tomcat-users.xml tomcat用户角色、权限配置； 4.web.xml应用全局默认配置，若服务中进行了配置，则会覆盖  lib：基础jar包 temp ：临时文件 webapps ：发布项目的目录，管理界面 work：JSP 解析成Java类，中间会产生过程文件，编译运行中间文件 架构及原理剖析 架构   http请求过程
@@ -34,9 +34,7 @@
   简介
  封装网络通信，(Socket 请求及响应处理) Catalina 容器(容器组件)与具体的请求协议及IO操作方式完全解耦 将Socket 输入转换封装为 Request 对象，进一步封装后交由Catalina 容器进行处理，处 理请求完成后, Catalina 通过Coyote 提供的Response 对象将结果写入输出流 Coyote 负责的是具体协议(应用层)和IO(传输层)相关内容    I/O模型及协议"/>
 <meta name="application-name" content="Z">
-<meta name="apple-mobile-web-app-title" content="Z"><meta name="theme-color" content="#ffffff"><meta name="msapplication-TileColor" content="#da532c"><link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
-        <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"><link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5"><link rel="manifest" href="/site.webmanifest"><link rel="canonical" href="http://lei-zz.github.io/tomcat/" /><link rel="prev" href="http://lei-zz.github.io/%E5%8F%8D%E5%B0%84%E6%9C%BA%E5%88%B6/" /><link rel="next" href="http://lei-zz.github.io/spring/" /><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/normalize.css@8.0.1/normalize.min.css"><link rel="stylesheet" href="/css/style.min.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.13.0/css/all.min.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/animate.css@3.7.2/animate.min.css"><script type="application/ld+json">
+<meta name="apple-mobile-web-app-title" content="Z"><meta name="theme-color" content="#ffffff"><meta name="msapplication-TileColor" content="#da532c"><link rel="icon" href="/images/logo/"><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"><link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5"><link rel="manifest" href="/site.webmanifest"><link rel="canonical" href="/tomcat/" /><link rel="prev" href="/%E5%8F%8D%E5%B0%84%E6%9C%BA%E5%88%B6/" /><link rel="next" href="/spring/" /><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/normalize.css@8.0.1/normalize.min.css"><link rel="stylesheet" href="/css/style.min.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.13.0/css/all.min.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/animate.css@3.7.2/animate.min.css"><script type="application/ld+json">
     {
         "@context": "http://schema.org",
         "@type": "BlogPosting",
@@ -44,21 +42,11 @@
         "inLanguage": "en",
         "mainEntityOfPage": {
             "@type": "WebPage",
-            "@id": "http:\/\/lei-zz.github.io\/tomcat\/"
-        },"image": [{
-                            "@type": "ImageObject",
-                            "url": "http:\/\/lei-zz.github.io\/images\/Apple-Devices-Preview.png",
-                            "width":  3200 ,
-                            "height":  2048 
-                        }],"genre": "posts","keywords": "Tomcat","wordcount":  192 ,
-        "url": "http:\/\/lei-zz.github.io\/tomcat\/","datePublished": "2020-07-14T22:40:00+00:00","dateModified": "2020-07-14T22:40:00+00:00","license": "This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.","publisher": {
+            "@id": "\/tomcat\/"
+        },"image": ["\/images\/Apple-Devices-Preview.png"],"genre": "posts","keywords": "Tomcat","wordcount":  192 ,
+        "url": "\/tomcat\/","datePublished": "2020-07-14T22:40:00+00:00","dateModified": "2022-03-19T22:51:18+08:00","license": "This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.","publisher": {
             "@type": "Organization",
-            "name": "xxxx","logo": {
-                    "@type": "ImageObject",
-                    "url": "http:\/\/lei-zz.github.io\/images\/avatar.png",
-                    "width":  528 ,
-                    "height":  560 
-                }},"author": {
+            "name": "xxxx","logo": "\/images\/avatar.png"},"author": {
                 "@type": "Person",
                 "name": "lei.zz"
             },"description": ""
@@ -69,10 +57,17 @@
         <div id="mask"></div><div class="wrapper"><header class="desktop" id="header-desktop">
     <div class="header-wrapper">
         <div class="header-title">
-            <a href="/" title="Z"><span class="header-title-pre"><i class='far fa-kiss-wink-heart fa-fw'></i></span>Z</a>
+            <a href="/" title="Z"><img
+        class="lazyload logo"
+        src="/svg/loading.min.svg"
+        data-src="/images/logo/logo.png"
+        data-srcset="/images/logo/logo.png, /images/logo/logo.png 1.5x, /images/logo/logo.png 2x"
+        data-sizes="auto"
+        alt="/images/logo/logo.png"
+        title="/images/logo/logo.png" />Z</a>
         </div>
         <div class="menu">
-            <div class="menu-inner"><a class="menu-item" href="/posts/"> Posts </a><a class="menu-item" href="/tags/"> Tags </a><a class="menu-item" href="/categories/"> Categories </a><a class="menu-item" href="/categories/documentation/"> Docs </a><a class="menu-item" href="/about/"> About </a><a class="menu-item" href="https://github.com/lei-zz/lei-zz.github.io" title="GitHub" rel="noopener noreffer" target="_blank"><i class='fab fa-github fa-fw'></i>  </a><span class="menu-item delimiter"></span><a href="javascript:void(0);" class="menu-item language" title="Select Language">English<i class="fas fa-chevron-right fa-fw"></i>
+            <div class="menu-inner"><a class="menu-item" href="/posts/"> Posts </a><a class="menu-item" href="/tags/"> Tags </a><a class="menu-item" href="/categories/"> Categories </a><a class="menu-item" href="/https:/github.com/lei-zz/lei-zz.github.io" title="GitHub"><i class='fab fa-github fa-fw'></i>  </a><span class="menu-item delimiter"></span><a href="javascript:void(0);" class="menu-item language" title="Select Language">English<i class="fas fa-chevron-right fa-fw"></i>
                         <select class="language-select" id="language-select-desktop" onchange="location = this.value;"><option value="/tomcat/" selected>English</option></select>
                     </a><span class="menu-item search" id="search-desktop">
                         <input type="text" placeholder="Search titles or contents..." id="search-input-desktop">
@@ -95,7 +90,14 @@
     <div class="header-container">
         <div class="header-wrapper">
             <div class="header-title">
-                <a href="/" title="Z"><span class="header-title-pre"><i class='far fa-kiss-wink-heart fa-fw'></i></span>Z</a>
+                <a href="/" title="Z"><img
+        class="lazyload logo"
+        src="/svg/loading.min.svg"
+        data-src="/images/logo/logo.png"
+        data-srcset="/images/logo/logo.png, /images/logo/logo.png 1.5x, /images/logo/logo.png 2x"
+        data-sizes="auto"
+        alt="/images/logo/logo.png"
+        title="/images/logo/logo.png" />Z</a>
             </div>
             <div class="menu-toggle" id="menu-toggle-mobile">
                 <span></span><span></span><span></span>
@@ -117,7 +119,7 @@
                     <a href="javascript:void(0);" class="search-cancel" id="search-cancel-mobile">
                         Cancel
                     </a>
-                </div><a class="menu-item" href="/posts/" title="">Posts</a><a class="menu-item" href="/tags/" title="">Tags</a><a class="menu-item" href="/categories/" title="">Categories</a><a class="menu-item" href="/categories/documentation/" title="">Docs</a><a class="menu-item" href="/about/" title="">About</a><a class="menu-item" href="https://github.com/lei-zz/lei-zz.github.io" title="GitHub" rel="noopener noreffer" target="_blank"><i class='fab fa-github fa-fw'></i></a><a href="javascript:void(0);" class="menu-item theme-switch" title="Switch Theme">
+                </div><a class="menu-item" href="/posts/" title="">Posts</a><a class="menu-item" href="/tags/" title="">Tags</a><a class="menu-item" href="/categories/" title="">Categories</a><a class="menu-item" href="/https:/github.com/lei-zz/lei-zz.github.io" title="GitHub"><i class='fab fa-github fa-fw'></i></a><a href="javascript:void(0);" class="menu-item theme-switch" title="Switch Theme">
                 <i class="fas fa-adjust fa-fw"></i>
             </a><a href="javascript:void(0);" class="menu-item" title="Select Language">English<i class="fas fa-chevron-right fa-fw"></i>
                     <select class="language-select" onchange="location = this.value;"><option value="/tomcat/" selected>English</option></select>
@@ -374,7 +376,8 @@
     <div class="post-info">
         <div class="post-info-line">
             <div class="post-info-mod">
-                <span>Updated on 2020-07-14</span>
+                <span>Updated on 2022-03-19&nbsp;<a class="git-hash" href="https://github.com/lei-zz/lei-zz.github.io/commit/12a1766f46d04cfbd128b9d1384249085114d301" target="_blank" title="commit by 1461310287@qq.com(1461310287@qq.com) 12a1766f46d04cfbd128b9d1384249085114d301: change logo">
+                                    <i class="fas fa-hashtag fa-fw"></i>12a1766</a></span>
             </div>
             <div class="post-info-license"></div>
         </div>
@@ -383,7 +386,7 @@
                             <a class="link-to-markdown" href="/tomcat/index.md" target="_blank">Read Markdown</a>
                         </span></div>
             <div class="post-info-share">
-                <span><a href="javascript:void(0);" title="Share on Twitter" data-sharer="twitter" data-url="http://lei-zz.github.io/tomcat/" data-title="Tomcat详解" data-via="xxxx" data-hashtags="Tomcat"><i class="fab fa-twitter fa-fw"></i></a><a href="javascript:void(0);" title="Share on Facebook" data-sharer="facebook" data-url="http://lei-zz.github.io/tomcat/" data-hashtag="Tomcat"><i class="fab fa-facebook-square fa-fw"></i></a><a href="javascript:void(0);" title="Share on Hacker News" data-sharer="hackernews" data-url="http://lei-zz.github.io/tomcat/" data-title="Tomcat详解"><i class="fab fa-hacker-news fa-fw"></i></a><a href="javascript:void(0);" title="Share on Line" data-sharer="line" data-url="http://lei-zz.github.io/tomcat/" data-title="Tomcat详解"><i data-svg-src="https://cdn.jsdelivr.net/npm/simple-icons@2.14.0/icons/line.svg"></i></a><a href="javascript:void(0);" title="Share on 微博" data-sharer="weibo" data-url="http://lei-zz.github.io/tomcat/" data-title="Tomcat详解"><i class="fab fa-weibo fa-fw"></i></a></span>
+                <span><a href="javascript:void(0);" title="Share on Twitter" data-sharer="twitter" data-url="/tomcat/" data-title="Tomcat详解" data-hashtags="Tomcat"><i class="fab fa-twitter fa-fw"></i></a><a href="javascript:void(0);" title="Share on Facebook" data-sharer="facebook" data-url="/tomcat/" data-hashtag="Tomcat"><i class="fab fa-facebook-square fa-fw"></i></a><a href="javascript:void(0);" title="Share on Hacker News" data-sharer="hackernews" data-url="/tomcat/" data-title="Tomcat详解"><i class="fab fa-hacker-news fa-fw"></i></a><a href="javascript:void(0);" title="Share on Line" data-sharer="line" data-url="/tomcat/" data-title="Tomcat详解"><i data-svg-src="https://cdn.jsdelivr.net/npm/simple-icons@2.14.0/icons/line.svg"></i></a><a href="javascript:void(0);" title="Share on 微博" data-sharer="weibo" data-url="/tomcat/" data-title="Tomcat详解"><i class="fab fa-weibo fa-fw"></i></a></span>
             </div>
         </div>
     </div>

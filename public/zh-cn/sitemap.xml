@@ -2,158 +2,149 @@
     xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
     xmlns:xhtml="http://www.w3.org/1999/xhtml"
     ><url>
-            <loc>http://lei-zz.github.io/zh-cn/tags/jvm/</loc><lastmod>2021-02-12T00:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
+            <loc>/zh-cn/jvm/</loc><lastmod>2022-03-19T22:51:18&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>/zh-cn/posts/</loc><lastmod>2022-03-19T22:51:18&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
                         rel="alternate"
                         hreflang="en"
-                        href="http://lei-zz.github.io/tags/jvm/"
+                        href="/posts/"
                         /><xhtml:link
                     rel="alternate"
                     hreflang="zh-cn"
-                    href="http://lei-zz.github.io/zh-cn/tags/jvm/"
+                    href="/zh-cn/posts/"
                     /></url><url>
-            <loc>http://lei-zz.github.io/zh-cn/jvm/</loc><lastmod>2021-02-12T00:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
-            <loc>http://lei-zz.github.io/zh-cn/posts/</loc><lastmod>2021-02-12T00:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
+            <loc>/zh-cn/</loc><lastmod>2022-03-19T22:51:18&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
                         rel="alternate"
                         hreflang="en"
-                        href="http://lei-zz.github.io/posts/"
+                        href="/"
                         /><xhtml:link
                     rel="alternate"
                     hreflang="zh-cn"
-                    href="http://lei-zz.github.io/zh-cn/posts/"
+                    href="/zh-cn/"
                     /></url><url>
-            <loc>http://lei-zz.github.io/zh-cn/tags/</loc><lastmod>2021-02-12T00:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
+            <loc>/zh-cn/tags/</loc><lastmod>2022-03-19T22:51:18&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
                         rel="alternate"
                         hreflang="en"
-                        href="http://lei-zz.github.io/tags/"
+                        href="/tags/"
                         /><xhtml:link
                     rel="alternate"
                     hreflang="zh-cn"
-                    href="http://lei-zz.github.io/zh-cn/tags/"
+                    href="/zh-cn/tags/"
                     /></url><url>
-            <loc>http://lei-zz.github.io/zh-cn/</loc><lastmod>2021-02-12T00:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
+            <loc>/zh-cn/tags/zookeeper/</loc><lastmod>2022-03-19T22:51:18&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
                         rel="alternate"
                         hreflang="en"
-                        href="http://lei-zz.github.io/"
+                        href="/tags/zookeeper/"
                         /><xhtml:link
                     rel="alternate"
                     hreflang="zh-cn"
-                    href="http://lei-zz.github.io/zh-cn/"
+                    href="/zh-cn/tags/zookeeper/"
                     /></url><url>
-            <loc>http://lei-zz.github.io/zh-cn/tags/zookeeper/</loc><lastmod>2020-07-28T00:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
+            <loc>/zh-cn/zookeeper/</loc><lastmod>2022-03-19T22:51:18&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>/zh-cn/tags/%E8%AE%BE%E8%AE%A1%E6%80%9D%E6%83%B3/</loc><lastmod>2020-07-23T10:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
                         rel="alternate"
                         hreflang="en"
-                        href="http://lei-zz.github.io/tags/zookeeper/"
+                        href="/tags/%E8%AE%BE%E8%AE%A1%E6%80%9D%E6%83%B3/"
                         /><xhtml:link
                     rel="alternate"
                     hreflang="zh-cn"
-                    href="http://lei-zz.github.io/zh-cn/tags/zookeeper/"
+                    href="/zh-cn/tags/%E8%AE%BE%E8%AE%A1%E6%80%9D%E6%83%B3/"
                     /></url><url>
-            <loc>http://lei-zz.github.io/zh-cn/zookeeper/</loc><lastmod>2020-07-28T00:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
-            <loc>http://lei-zz.github.io/zh-cn/tags/%E8%AE%BE%E8%AE%A1%E6%80%9D%E6%83%B3/</loc><lastmod>2020-07-23T10:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
+            <loc>/zh-cn/%E9%A2%86%E5%9F%9F%E9%A9%B1%E5%8A%A8%E6%A8%A1%E5%9E%8Bddd/</loc><lastmod>2020-07-23T10:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>/zh-cn/tags/%E5%88%86%E5%B8%83%E5%BC%8F/</loc><lastmod>2020-07-22T16:10:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
                         rel="alternate"
                         hreflang="en"
-                        href="http://lei-zz.github.io/tags/%E8%AE%BE%E8%AE%A1%E6%80%9D%E6%83%B3/"
+                        href="/tags/%E5%88%86%E5%B8%83%E5%BC%8F/"
                         /><xhtml:link
                     rel="alternate"
                     hreflang="zh-cn"
-                    href="http://lei-zz.github.io/zh-cn/tags/%E8%AE%BE%E8%AE%A1%E6%80%9D%E6%83%B3/"
+                    href="/zh-cn/tags/%E5%88%86%E5%B8%83%E5%BC%8F/"
                     /></url><url>
-            <loc>http://lei-zz.github.io/zh-cn/%E9%A2%86%E5%9F%9F%E9%A9%B1%E5%8A%A8%E6%A8%A1%E5%9E%8Bddd/</loc><lastmod>2020-07-23T10:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
-            <loc>http://lei-zz.github.io/zh-cn/tags/%E5%88%86%E5%B8%83%E5%BC%8F/</loc><lastmod>2020-07-22T16:10:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
+            <loc>/zh-cn/%E5%88%86%E5%B8%83%E5%BC%8F%E7%BD%91%E7%BB%9C%E9%80%9A%E4%BF%A1/</loc><lastmod>2020-07-22T16:10:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>/zh-cn/tags/%E5%88%86%E5%B8%83%E5%BC%8F%E4%BA%8B%E5%8A%A1/</loc><lastmod>2020-07-22T14:40:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
                         rel="alternate"
                         hreflang="en"
-                        href="http://lei-zz.github.io/tags/%E5%88%86%E5%B8%83%E5%BC%8F/"
+                        href="/tags/%E5%88%86%E5%B8%83%E5%BC%8F%E4%BA%8B%E5%8A%A1/"
                         /><xhtml:link
                     rel="alternate"
                     hreflang="zh-cn"
-                    href="http://lei-zz.github.io/zh-cn/tags/%E5%88%86%E5%B8%83%E5%BC%8F/"
+                    href="/zh-cn/tags/%E5%88%86%E5%B8%83%E5%BC%8F%E4%BA%8B%E5%8A%A1/"
                     /></url><url>
-            <loc>http://lei-zz.github.io/zh-cn/%E5%88%86%E5%B8%83%E5%BC%8F%E7%BD%91%E7%BB%9C%E9%80%9A%E4%BF%A1/</loc><lastmod>2020-07-22T16:10:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
-            <loc>http://lei-zz.github.io/zh-cn/tags/%E5%88%86%E5%B8%83%E5%BC%8F%E4%BA%8B%E5%8A%A1/</loc><lastmod>2020-07-22T14:40:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
+            <loc>/zh-cn/%E5%88%86%E5%B8%83%E5%BC%8F/</loc><lastmod>2020-07-22T14:40:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>/zh-cn/tags/spring/</loc><lastmod>2022-03-19T22:51:18&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
                         rel="alternate"
                         hreflang="en"
-                        href="http://lei-zz.github.io/tags/%E5%88%86%E5%B8%83%E5%BC%8F%E4%BA%8B%E5%8A%A1/"
+                        href="/tags/spring/"
                         /><xhtml:link
                     rel="alternate"
                     hreflang="zh-cn"
-                    href="http://lei-zz.github.io/zh-cn/tags/%E5%88%86%E5%B8%83%E5%BC%8F%E4%BA%8B%E5%8A%A1/"
+                    href="/zh-cn/tags/spring/"
                     /></url><url>
-            <loc>http://lei-zz.github.io/zh-cn/%E5%88%86%E5%B8%83%E5%BC%8F/</loc><lastmod>2020-07-22T14:40:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
-            <loc>http://lei-zz.github.io/zh-cn/tags/spring/</loc><lastmod>2020-07-17T22:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
+            <loc>/zh-cn/spring/</loc><lastmod>2022-03-19T22:51:18&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>/zh-cn/tags/tomcat/</loc><lastmod>2022-03-19T22:51:18&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
                         rel="alternate"
                         hreflang="en"
-                        href="http://lei-zz.github.io/tags/spring/"
+                        href="/tags/tomcat/"
                         /><xhtml:link
                     rel="alternate"
                     hreflang="zh-cn"
-                    href="http://lei-zz.github.io/zh-cn/tags/spring/"
+                    href="/zh-cn/tags/tomcat/"
                     /></url><url>
-            <loc>http://lei-zz.github.io/zh-cn/spring/</loc><lastmod>2020-07-17T22:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
-            <loc>http://lei-zz.github.io/zh-cn/tags/tomcat/</loc><lastmod>2020-07-14T22:40:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
+            <loc>/zh-cn/tomcat/</loc><lastmod>2022-03-19T22:51:18&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>/zh-cn/tags/java%E5%9F%BA%E7%A1%80/</loc><lastmod>2020-07-13T10:30:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
                         rel="alternate"
                         hreflang="en"
-                        href="http://lei-zz.github.io/tags/tomcat/"
+                        href="/tags/java%E5%9F%BA%E7%A1%80/"
                         /><xhtml:link
                     rel="alternate"
                     hreflang="zh-cn"
-                    href="http://lei-zz.github.io/zh-cn/tags/tomcat/"
+                    href="/zh-cn/tags/java%E5%9F%BA%E7%A1%80/"
                     /></url><url>
-            <loc>http://lei-zz.github.io/zh-cn/tomcat/</loc><lastmod>2020-07-14T22:40:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
-            <loc>http://lei-zz.github.io/zh-cn/tags/java%E5%9F%BA%E7%A1%80/</loc><lastmod>2020-07-13T10:30:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
+            <loc>/zh-cn/%E5%8F%8D%E5%B0%84%E6%9C%BA%E5%88%B6/</loc><lastmod>2020-07-13T10:30:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>/zh-cn/tags/%E4%BB%A3%E7%90%86/</loc><lastmod>2020-07-13T00:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
                         rel="alternate"
                         hreflang="en"
-                        href="http://lei-zz.github.io/tags/java%E5%9F%BA%E7%A1%80/"
+                        href="/tags/%E4%BB%A3%E7%90%86/"
                         /><xhtml:link
                     rel="alternate"
                     hreflang="zh-cn"
-                    href="http://lei-zz.github.io/zh-cn/tags/java%E5%9F%BA%E7%A1%80/"
+                    href="/zh-cn/tags/%E4%BB%A3%E7%90%86/"
                     /></url><url>
-            <loc>http://lei-zz.github.io/zh-cn/%E5%8F%8D%E5%B0%84%E6%9C%BA%E5%88%B6/</loc><lastmod>2020-07-13T10:30:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
-            <loc>http://lei-zz.github.io/zh-cn/tags/%E4%BB%A3%E7%90%86/</loc><lastmod>2020-07-13T00:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
+            <loc>/zh-cn/%E7%90%86%E8%A7%A3%E4%BB%A3%E7%90%86%E6%A8%A1%E5%BC%8F%E9%9D%99%E6%80%81%E4%BB%A3%E7%90%86%E5%8A%A8%E6%80%81%E4%BB%A3%E7%90%86cglibaop/</loc><lastmod>2020-07-13T00:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>/zh-cn/tags/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F/</loc><lastmod>2020-07-13T00:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
                         rel="alternate"
                         hreflang="en"
-                        href="http://lei-zz.github.io/tags/%E4%BB%A3%E7%90%86/"
+                        href="/tags/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F/"
                         /><xhtml:link
                     rel="alternate"
                     hreflang="zh-cn"
-                    href="http://lei-zz.github.io/zh-cn/tags/%E4%BB%A3%E7%90%86/"
+                    href="/zh-cn/tags/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F/"
                     /></url><url>
-            <loc>http://lei-zz.github.io/zh-cn/%E7%90%86%E8%A7%A3%E4%BB%A3%E7%90%86%E6%A8%A1%E5%BC%8F%E9%9D%99%E6%80%81%E4%BB%A3%E7%90%86%E5%8A%A8%E6%80%81%E4%BB%A3%E7%90%86cglibaop/</loc><lastmod>2020-07-13T00:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
-            <loc>http://lei-zz.github.io/zh-cn/tags/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F/</loc><lastmod>2020-07-13T00:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
+            <loc>/zh-cn/tags/linux/</loc><lastmod>2020-07-12T00:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
                         rel="alternate"
                         hreflang="en"
-                        href="http://lei-zz.github.io/tags/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F/"
+                        href="/tags/linux/"
                         /><xhtml:link
                     rel="alternate"
                     hreflang="zh-cn"
-                    href="http://lei-zz.github.io/zh-cn/tags/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F/"
+                    href="/zh-cn/tags/linux/"
                     /></url><url>
-            <loc>http://lei-zz.github.io/zh-cn/tags/linux/</loc><lastmod>2020-07-12T00:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
+            <loc>/zh-cn/linux%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/</loc><lastmod>2020-07-12T00:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>/zh-cn/java%E5%9F%BA%E7%A1%80%E6%A6%82%E5%BF%B5/</loc><lastmod>2020-07-10T00:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>/zh-cn/about/</loc><priority>0</priority><xhtml:link
                         rel="alternate"
                         hreflang="en"
-                        href="http://lei-zz.github.io/tags/linux/"
+                        href="/about/"
                         /><xhtml:link
                     rel="alternate"
                     hreflang="zh-cn"
-                    href="http://lei-zz.github.io/zh-cn/tags/linux/"
+                    href="/zh-cn/about/"
                     /></url><url>
-            <loc>http://lei-zz.github.io/zh-cn/linux%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/</loc><lastmod>2020-07-12T00:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
-            <loc>http://lei-zz.github.io/zh-cn/java%E5%9F%BA%E7%A1%80%E6%A6%82%E5%BF%B5/</loc><lastmod>2020-07-10T00:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
-            <loc>http://lei-zz.github.io/zh-cn/about/</loc><lastmod>2022-03-15T22:55:27&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
+            <loc>/zh-cn/categories/</loc><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
                         rel="alternate"
                         hreflang="en"
-                        href="http://lei-zz.github.io/about/"
+                        href="/categories/"
                         /><xhtml:link
                     rel="alternate"
                     hreflang="zh-cn"
-                    href="http://lei-zz.github.io/zh-cn/about/"
-                    /></url><url>
-            <loc>http://lei-zz.github.io/zh-cn/categories/</loc><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
-                        rel="alternate"
-                        hreflang="en"
-                        href="http://lei-zz.github.io/categories/"
-                        /><xhtml:link
-                    rel="alternate"
-                    hreflang="zh-cn"
-                    href="http://lei-zz.github.io/zh-cn/categories/"
+                    href="/zh-cn/categories/"
                     /></url></urlset>
